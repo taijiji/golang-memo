@@ -1,6 +1,8 @@
 # Tutorial
 - [A Tour of Go](https://go-tour-jp.appspot.com/welcome/3)
 
+- [dotinstall](http://dotinstall.com/lessons/basic_golang/29304)
+
 # Dowload
 - https://golang.org/dl/
 
@@ -16,3 +18,20 @@
 ```
 http://127.0.0.1:3999/welcome/1
 ```
+
+# hello
+
+'''
+vi hello.go
+'''
+
+make build
+
+'''
+go build hello.go
+./hello
+
+or 
+
+go run hello.go
+'''
